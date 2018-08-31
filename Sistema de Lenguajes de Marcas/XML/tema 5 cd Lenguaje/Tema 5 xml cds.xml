@@ -1,0 +1,45 @@
+<?xml-stylesheet type="text/xsl" href="cd_p1.xsl"/?>
+<cdteca>
+	<cd>
+		<titulo>La Carretera</titulo>
+		<artista>Julio Iglesias</artista>
+		<cancion tiempo="281">La Carretera</cancion>
+		<cancion tiempo="233">Cosas de la vida</cancion>
+		<cancion tiempo="230">Baila Morena</cancion>
+		<cancion tiempo="216">Derroche</cancion>
+		<cancion tiempo="206">El último verano</cancion>
+		<cancion tiempo="268">Agua dulce, Agua salada</cancion>
+		<cancion tiempo="254">Sin excusas Ni rodeos</cancion>
+		<cancion tiempo="164">Mal de amores</cancion>
+		<sello>Sony</sello>
+		<anyo>1995</anyo>
+	</cd>
+	<cd>
+		<titulo>La Carretera</titulo>
+		<artista>Julio Iglesias</artista>
+		<cancion tiempo="281">La Carretera</cancion>
+		<cancion tiempo="233">Cosas de la vida</cancion>
+		<cancion tiempo="230">Baila Morena</cancion>
+		<cancion tiempo="216">Derroche</cancion>
+		<cancion tiempo="206">El último verano</cancion>
+		<cancion tiempo="268">Agua dulce, Agua salada</cancion>
+		<cancion tiempo="254">Sin excusas Ni rodeos</cancion>
+		<cancion tiempo="164">Mal de amores</cancion>
+		<sello>Hispavox</sello>
+		<anyo>2000</anyo>
+	</cd>
+	<cd>
+		<titulo>Have a nice day</titulo>
+		<artista>Jon Bon Jovi</artista>
+		<cancion tiempo="281">Have a nice day</cancion>
+		<cancion tiempo="233">a</cancion>
+		<cancion tiempo="230">b</cancion>
+		<cancion tiempo="216">c</cancion>
+		<cancion tiempo="206">d</cancion>
+		<cancion tiempo="268">e</cancion>
+		<cancion tiempo="254">f</cancion>
+		<cancion tiempo="164">g</cancion>
+		<sello>Sony</sello>
+		<anyo>2003</anyo>
+	</cd>
+</cdteca>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <libro>
+    <titulo idioma="es">La vida esta en otra parte</titulo>
+    <autor>Milan Kundera</autor>
+    <fechaPublicacion anno="1973"/>
+  </libro>
+  <libro>
+    <titulo idioma="es">Pantaleon y las visitadoras</titulo>
+    <autor>Mario Vargas Llosa</autor>
+    <fechaPublicacion anno="1973"/>
+  </libro>
+  <libro>
+    <titulo idioma="es">Conversacion en la catedral</titulo>
+    <autor>Mario Vargas Llosa</autor>
+    <fechaPublicacion anno="1969"/>
+  </libro>
+  <libro>
+    <titulo idioma="en">Complete Stories and Poems of Edgar Allan Poe</titulo>
+    <autor>Edgar Allan Poe</autor>
+    <fechaPublicacion anno="1890"/>
+  </libro>  
+  <libro>
+    <titulo idioma="fr">Les Miserables</titulo>
+    <autor>Victor Hugo</autor>
+    <fechaPublicacion anno="1862"/>
+  </libro>  
+  <libro>
+    <titulo idioma="es">Plenilunio</titulo>
+    <autor>Antonio Munoz Molina</autor>
+    <fechaPublicacion anno="1997"/>
+  </libro>  
+</biblioteca>

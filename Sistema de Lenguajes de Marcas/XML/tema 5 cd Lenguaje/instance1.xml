@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="file:/C:/Users/daw2/Desktop/tema%205%20cd%20Lenguaje/cd_p1.xsd">
+    <cd>
+        <titulo>titulo0</titulo>
+        <artista>artista0</artista>
+        <cancion tiempo="0">
+        </cancion>
+        <cancion tiempo="0">
+        </cancion>
+        <sello>sello0</sello>
+        <anyo>0</anyo>
+    </cd>
+    <cd>
+        <titulo>titulo1</titulo>
+        <artista>artista1</artista>
+        <cancion tiempo="0">
+        </cancion>
+        <cancion tiempo="0">
+        </cancion>
+        <sello>sello1</sello>
+        <anyo>0</anyo>
+    </cd>
+</cdteca>

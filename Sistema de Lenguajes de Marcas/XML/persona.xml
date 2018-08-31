@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libros SYSTEM "prueba.dtd">
+<persona>
+<nombre>Juan</nombre>
+<nacimiento dia="10" mes="Abril" anyo="1465"/>
+<direccion>
+<calle>Pepe,2</calle>
+<poblacion>Logroño</poblacion>
+<provincia>La Rioja</provincia>
+<cpostal>24142</cpostal>
+</direccion>
+<varon/>
+</persona>
+<persona>
+<nombre>Mario</nombre>
+<nacimiento dia="3" mes="Diciembre" anyo="1998"/>
+<direccion>
+<calle>Juan,343</calle>
+<poblacion>Logroño</poblacion>
+<provincia>La Rioja</provincia>
+<cpostal>22142</cpostal>
+</direccion>
+<varon/>
+</persona>

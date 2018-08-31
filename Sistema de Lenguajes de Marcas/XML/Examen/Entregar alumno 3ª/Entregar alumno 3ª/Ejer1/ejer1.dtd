@@ -1,0 +1,18 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT relacion (persona)+>
+<!ATTLIST relacion>
+
+<!ELEMENT persona (nombre,email,parentesco)>
+    <!ATTLIST persona carnet ID #REQUIRED>
+    <!ATTLIST persona sexo (hombre|mujer|opcional) #IMPLIED>
+<!ELEMENT nombre (#PCDATA)*>
+<!ATTLIST nombre>
+
+<!ELEMENT email (#PCDATA)*>
+<!ATTLIST email>
+
+<!ELEMENT parentesco (#PCDATA)>
+<!ATTLIST parentesco
+  hermano NMTOKEN #IMPLIED
+  padre NMTOKEN #IMPLIED>
