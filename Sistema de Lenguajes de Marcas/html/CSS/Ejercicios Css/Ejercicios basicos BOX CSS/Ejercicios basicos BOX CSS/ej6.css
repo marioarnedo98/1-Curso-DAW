@@ -1,0 +1,9 @@
+
+div.ex1 {
+    width:500px;
+    margin: auto;
+    border-right: 10px solid red;
+    border-top: 5px solid blue;
+    border-left: 20px double green;
+    border-bottom: 15px solid pink
+}

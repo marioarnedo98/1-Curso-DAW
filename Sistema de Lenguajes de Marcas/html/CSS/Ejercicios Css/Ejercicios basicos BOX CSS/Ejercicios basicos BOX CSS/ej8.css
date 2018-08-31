@@ -1,0 +1,10 @@
+div.h1{
+	border-style: solid;
+	border-width: thick;
+	border-color:red;
+	margin-bottom: 20px;
+}
+div.p{
+	border-bottom:  5px solid blue;
+	border-top:  5px solid blue;
+}

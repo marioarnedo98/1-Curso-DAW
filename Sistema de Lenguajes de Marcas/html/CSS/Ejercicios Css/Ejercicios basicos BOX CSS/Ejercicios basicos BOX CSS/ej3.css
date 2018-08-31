@@ -1,0 +1,9 @@
+h1 b{
+	color: red;
+}
+p b{
+	color: blue;
+}
+p * b{
+	color: green;
+}

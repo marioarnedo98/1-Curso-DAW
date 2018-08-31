@@ -1,0 +1,17 @@
+body{
+	margin: 20px;
+	font-family: Courier New;
+}
+h1{
+	font-family: Arial;
+	color: #8000ff;
+	font-size: x-large;
+}
+p{
+	color: #ff0000;
+	font-size: medium;
+	font-family: Verdana;
+}
+*>h2{
+	margin: 40px;
+}

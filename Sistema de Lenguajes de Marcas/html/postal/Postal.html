@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>¡Feliz navidaaad!</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://s3.amazonaws.com/codecademy-content/courses/holiday-cards/snowfall.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            snowFall.snow($("section"), {
+                minSize: 1,     //Tamaño minimo que va a tener la copo
+                maxSize: 8,     //Tamaño maximo que va a tener un copo
+                round: true,    //Le damos forma circular
+                minSpeed: 1,    //Le damos una velocidad minima de caida del copito
+                maxSpeed: 32,   //Le damos una velocidad maxima de caida del copito
+                flakeCount: 100 //Cuantos copos habrá por pantalla
+            });
+        });
+        </script>
+        </script>
+        <audio autoplay src="navidad.mp3"></audio>
+    </head>
+    <body>
+        <section>
+            <h1>Mario te desea</h1>
+            <h2>Una feliz navidad y <br>un mejor año nuevo</h2>
+    </section>
+    
+    
+    </body>
+</html>

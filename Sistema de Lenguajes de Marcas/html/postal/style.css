@@ -1,0 +1,26 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+section {
+    position:relative;
+    background: url("https://static.vix.com/es/sites/default/files/styles/large/public/imj/lasmanualidades/c/como-hacer-munecos-de-nieve-en-fieltro.jpg?itok=VtUuvrbO"); 
+
+    /*Fondo de brontosaurio cambiar color negro la letra
+    /*background: url("https://www.peluchetes.com/contenido/uploads/2015/11/peluche-brontosaurio.jpg");*/
+    width:700px;
+    height:500px;
+    color: white;
+    font-family: 'Gloria Hallelujah';
+}
+h1{
+    position:absolute;
+    margin:0;
+    top:0;
+    left:40px;
+   font-size:48px;
+}
+h2{
+    position: absolute;
+    margin: 10px;
+    top:60px;
+    right: 400px;
+    font-size:36px;   
+}

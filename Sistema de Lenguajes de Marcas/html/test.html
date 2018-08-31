@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+
+       <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+<meta name=”location” content=”Logroño, España”>
+    <meta name=”rating” content=”general”>
+    <meta name=”revisit-after” content=”3 days”>
+    <meta name=”robots” content=”index, nofollow”>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tutorial de lenguaje de marcas">
+  <meta name="keywords" content="HTML,SMR,SUPERIOR,PaginaWeb">
+  <meta name="author" content="Mario Arnedo">
+	<title>Pagina de Mario Arnedo</title>
+</head>
+<body>
+<header id="main-header">
+		
+		<a id="logo-header" href="#">
+			<span class="site-name">Arnedo En pruebas</span>
+			<span class="site-desc">Diseño web / CSS / HTML</span>
+		</a> <!-- / #logo-header -->
+ 
+		<nav>
+			<ul>
+				<li><a href="inicio.html" title="Principal" target="iframe1">Principal</a> </li>
+				<li><a href="bloques1.html" title="Bloques" target="iframe1">Ejercicio de los bloques</a></li>
+				<li><a href="ejercicio9.html" title="Ejercicio 9" target="iframe1">Ejercicio 9 </a> </li>
+				<li><a href="pagina2.html" title ="Pagina 2" target="iframe1">Mi segunda pagina</a> </li>
+				<li><a href="Mapa.html" title="Mapa" target="iframe1">Ejercicio del Mapa</a> </li>
+				<li><a href="/bloques_css/menu.html" title="Menu" target="iframe1">Menu de los bloques</a> </li>
+			</ul>
+		</nav><!-- / nav -->
+<iframe id="tree" name="iframe1" src="inicio.html" scrolling="no" frameborder="0" onload="resizeIframe(this)" width="100%"></iframe> 
+</body>
+</html>
