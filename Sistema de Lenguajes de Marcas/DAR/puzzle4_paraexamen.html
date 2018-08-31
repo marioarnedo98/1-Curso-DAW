@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="puzzle4.css" type="text/css" >
+<script src="puzzle4_paraexamen.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1> Un puzzle de cuatro piezas </h1>
+    </header>
+    <!-- definir una seccion con id contenedor puzzle -->
+    <section id="contenedorPuzzle">
+   		 <!-- definir una div con id contenedorPiezas en el que va a ser posible tambien el evento enter, over y drop: en cada caso recibiremos lo qie nos devuelvan las correspondientes funciones en javascript -->
+        <div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">        
+            <!--definir 4 imágenes , con los nombres adecuados y desordenadas, que sean arrastrables y en ellas se dé los eventos start y end, reciben lo que les dé las correspondientes funciones en javascript-->
+            <img id="tres" src="pieza3.jpg" draggable="true"  ondragstart="start(event)" ondragend="end(event)">      
+            <img id="uno" src="pieza1.jpg" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+            <img id="cuatro" src="pieza4.jpg" draggable="true"  ondragstart="start(event)" ondragend="end(event)"> 
+            <img id="dos" src="pieza2.jpg" draggable="true"  ondragstart="start(event)" ondragend="end(event)">
+         </div> 
+            <!-- definir una div con id puzzle-->
+         <div id="puzzle">
+    	 		<!--definir 4 divs con id="uno", "dos", "tres", "cuatro", en las cales tambien suceden los eventos enter, over y drop, como antes -->
+            <div id="uno" class="contenedorPieza" ondragenter="enter(event)" ondragover="over(event)" ondrop="drop(event)"></div>
+            <div id="dos"  class="contenedorPieza" ondragenter="enter(event)" ondragover="over(event)" ondrop="drop(event)"></div>
+            <div id="tres"  class="contenedorPieza" ondragenter="enter(event)" ondragover="over(event)" ondrop="drop(event)"></div>
+            <div id="cuatro"  class="contenedorPieza" ondragenter="enter(event)" ondragover="over(event)" ondrop="drop(event)"></div>
+        </div>
+    </section>
+</body>
+</html>
+

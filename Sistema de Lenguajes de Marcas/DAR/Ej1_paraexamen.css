@@ -1,0 +1,38 @@
+body {
+  font: 150%/1.5 Arial;
+  text-align: center;
+  margin-top: 6em;
+}
+
+h1 {
+  animation: rebote .5s alternate infinite ease-in;
+}
+
+
+
+@media screen and (min-width:701px) {
+   @-webkit-keyframes rebote{
+     0%{transform:translateX(50%)}
+     100%{transform:translateX(-50%)}
+   }
+  h1 {
+    color: red;
+    display: inline-block; /*needed to trigger update */
+  }
+}
+
+@media screen and (max-width:700px) {
+  @-webkit-keyframes rebote{
+    0%{transform:translateY(-200%)};
+    100%{transform:translateY(0%)};
+  }
+  
+  h1 {
+    color: green;
+    display: block; /* needed to trigger update */
+  }
+}
+/*Las asignaciones @media corresponden al css resposive esto quiere decir 
+que cuando se vea en una pantalla (screen) siempre y cuando sea de un ancho mayor de 
+701px el rebote se hara de la primera manera y cuando esa pantalla no tenga suficiente
+anchura (max-width:700px) de 700 pixeles el rebote se hara de arriba a abajo. 
