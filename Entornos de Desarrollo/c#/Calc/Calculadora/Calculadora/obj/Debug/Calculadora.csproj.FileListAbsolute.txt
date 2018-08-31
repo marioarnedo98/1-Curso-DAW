@@ -1,0 +1,5 @@
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\Calculadora\bin\Debug\Calculadora.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\Calculadora\obj\Debug\Calculadora.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

@@ -1,0 +1,7 @@
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\obj\Debug\Ejercicio 2.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\obj\Debug\Ejercicio 2.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\bin\Debug\Ejercicio 2.exe.config
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\bin\Debug\Ejercicio 2.exe
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\bin\Debug\Ejercicio 2.pdb
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\obj\Debug\Ejercicio 2.exe
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 2\Ejercicio 2\obj\Debug\Ejercicio 2.pdb

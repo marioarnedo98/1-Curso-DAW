@@ -1,0 +1,14 @@
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csprojResolveAssemblyReference.cache
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.CoreCompileInputs.cache
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+C:\Users\Mario\Desktop\Superior\Entornos de desarrollo\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.pdb
+H:\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+H:\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+H:\c#\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+H:\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csprojResolveAssemblyReference.cache
+H:\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.csproj.CoreCompileInputs.cache
+H:\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+H:\c#\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.pdb

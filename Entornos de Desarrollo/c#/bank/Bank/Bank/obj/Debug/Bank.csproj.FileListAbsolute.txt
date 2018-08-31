@@ -1,0 +1,5 @@
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\Bank\bin\Debug\Bank.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\Bank\obj\Debug\Bank.pdb

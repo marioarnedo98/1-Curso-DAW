@@ -1,0 +1,12 @@
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Bank.Fakes.xml
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Bank.Fakes.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Bank.Fakes.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Bank.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\Bank.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\b\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\o\f.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\o\Bank.Fakes.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\bank\Bank\BankTest\obj\Debug\Fakes\b\o\Bank.Fakes.pdb

@@ -1,0 +1,9 @@
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\CalculadoraTest.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\CalculadoraTest.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\Calculadora.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\Calculadora.pdb
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\obj\Debug\CalculadoraTest.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\obj\Debug\CalculadoraTest.dll
+C:\Users\daw2\Desktop\Entornos de Desarrollo\c#\Calc\Calculadora\CalculadoraTest\obj\Debug\CalculadoraTest.pdb

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bank.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Bank.Fakes.ShimBankAccount">
+            <summary>Tipo de correcciones de compatibilidad (shim) de Bank.BankAccount</summary>
+        </member>
+        <member name="M:Bank.Fakes.ShimBankAccount.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:Bank.Fakes.ShimBankAccount.#ctor(Bank.BankAccount)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="T:Bank.Fakes.ShimBankAccount.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.BalanceGet">
+            <summary>Establecer el shim de BankAccount.get_Balance()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.CreditDouble">
+            <summary>Establecer el shim de BankAccount.Credit(Double amount)</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.CustomerNameGet">
+            <summary>Establecer el shim de BankAccount.get_CustomerName()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.DebitDouble">
+            <summary>Establecer el shim de BankAccount.Debit(Double amount)</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.FreezeAccount">
+            <summary>Establecer el shim de BankAccount.FreezeAccount()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.AllInstances.UnfreezeAccount">
+            <summary>Establecer el shim de BankAccount.UnfreezeAccount()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.BalanceGet">
+            <summary>Establecer el shim de BankAccount.get_Balance()</summary>
+        </member>
+        <member name="M:Bank.Fakes.ShimBankAccount.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:Bank.Fakes.ShimBankAccount.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.Constructor">
+            <summary>Establecer el shim de BankAccount.BankAccount()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.ConstructorStringDouble">
+            <summary>Establecer el shim de BankAccount.BankAccount(String customerName, Double balance)</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.CreditDouble">
+            <summary>Establecer el shim de BankAccount.Credit(Double amount)</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.CustomerNameGet">
+            <summary>Establecer el shim de BankAccount.get_CustomerName()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.DebitDouble">
+            <summary>Establecer el shim de BankAccount.Debit(Double amount)</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.FreezeAccount">
+            <summary>Establecer el shim de BankAccount.FreezeAccount()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.Main">
+            <summary>Establecer el shim de BankAccount.Main()</summary>
+        </member>
+        <member name="P:Bank.Fakes.ShimBankAccount.UnfreezeAccount">
+            <summary>Establecer el shim de BankAccount.UnfreezeAccount()</summary>
+        </member>
+        <member name="T:Bank.Fakes.StubBankAccount">
+            <summary>Tipo stub de Bank.BankAccount</summary>
+        </member>
+        <member name="M:Bank.Fakes.StubBankAccount.#ctor(System.String,System.Double)">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="P:Bank.Fakes.StubBankAccount.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="M:Bank.Fakes.StubBankAccount.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubBankAccount</summary>
+        </member>
+        <member name="P:Bank.Fakes.StubBankAccount.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:Bank.Fakes.StubBankAccount.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+    </members>
+</doc>
