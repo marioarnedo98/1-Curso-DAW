@@ -1,0 +1,16 @@
+--CREAMOS UNA BASE DE DATOS
+CREATE TABLE herramientas(
+ID INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+Nombre VARCHAR(40) NOT NULL
+);
+--METEMOS DATOS EN LA TABLA NOMBRE
+INSERT INTO herramientas (Nombre) VALUES ('Martillo')
+INSERT INTO herramientas (Nombre) VALUES ('Taladro');
+--BORRAMOS EL NUMERO 1
+DELETE FROM herramientas WHERE Nombre='Martillo';
+--MOSTRAMOS RESULTADOS
+SELECT * FROM herramientas
+--FORZAMOS QUE OCUPE EL ID 1 
+SET IDENTITY_INSERT herramientas ON
+--LO METEMOS
+INSERT INTO dbo.herramientas (ID, Nombre) VALUES (1,'Serrucho')
