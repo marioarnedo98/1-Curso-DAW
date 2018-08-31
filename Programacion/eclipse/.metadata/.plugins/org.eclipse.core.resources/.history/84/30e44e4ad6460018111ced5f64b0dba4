@@ -1,0 +1,9 @@
+package lastexam;
+
+public class Ghost extends Enemy{
+public Ghost(String name, String default_scary_msg) {
+		super(name, default_scary_msg);
+
+	}
+
+}

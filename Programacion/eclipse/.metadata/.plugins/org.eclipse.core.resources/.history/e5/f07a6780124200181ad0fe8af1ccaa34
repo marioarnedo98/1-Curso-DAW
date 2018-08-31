@@ -1,0 +1,23 @@
+package ejercice7;
+
+public class Circle extends Shape{
+protected double radius;
+public Circle(){
+	radius=34.0;
+}
+public Circle (double radius) {
+	
+}
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double getPerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

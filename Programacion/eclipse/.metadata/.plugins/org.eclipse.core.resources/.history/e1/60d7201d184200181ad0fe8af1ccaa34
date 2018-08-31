@@ -1,0 +1,16 @@
+package ejercice8;
+
+public abstract class Animal implements Parlachin{
+	public abstract void habla();
+
+}
+class Perro extends Animal{
+	public void habla() {
+		System.out.println("¡Guau!");
+	}
+}
+class Gato extends Animal{
+	public void habla() {
+		System.out.println("¡Miau!");
+	}
+}

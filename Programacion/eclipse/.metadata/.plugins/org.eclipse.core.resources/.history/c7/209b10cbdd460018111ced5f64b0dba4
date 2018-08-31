@@ -1,0 +1,19 @@
+package lastexam;
+
+public class test {
+
+	public static void main(String[] args) {
+		Character c1= new Character();
+		Enemy e1 = new Enemy("Juan", "hello", 30);
+		e1.Scare(name);
+		c1.setName("Mario");
+		c1.setDescription("Hey");
+		c1.setSecretWeapon(2);
+		c1.setHealth(25);
+		c1.printInfo();
+		c1.fight(e1);
+		
+
+	}
+
+}

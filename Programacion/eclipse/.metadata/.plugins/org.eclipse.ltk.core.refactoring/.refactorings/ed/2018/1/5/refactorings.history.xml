@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void test(A a)&apos; from &apos;ed.A.main()&apos; to &apos;ed.A&apos;&#x0D;&#x0A;- Original project: &apos;ed&apos;&#x0D;&#x0A;- Method name: &apos;test&apos;&#x0D;&#x0A;- Destination type: &apos;ed.A&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;test&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;ed{A.java" name="test" replace="false" selection="261 79" stamp="1517309699539" version="1.0" visibility="2"/>
+</session>

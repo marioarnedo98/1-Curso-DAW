@@ -1,0 +1,6 @@
+package lastexam;
+
+public class Ghost extends Enemy{
+
+
+}

@@ -1,0 +1,5 @@
+package ejercice7;
+
+public class Circle extends Shape{
+
+}

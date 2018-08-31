@@ -1,0 +1,9 @@
+package lastexam;
+
+public class Ally extends Character{
+public Ally(String name, String description, int secretWeapon) {
+	this.setName(name);
+	this.setDescription(description);
+	this.setSecretWeapon(secretWeapon);
+}
+}

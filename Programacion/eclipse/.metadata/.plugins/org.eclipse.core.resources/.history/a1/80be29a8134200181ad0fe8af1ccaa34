@@ -1,0 +1,32 @@
+package ejercice7;
+
+public class Rectangle extends Shape {
+	protected double width;
+	protected double lenght;
+public Rectangle() {
+width=20.0;
+lenght=17.0;
+}
+public Rectangle(double lenght, double width) {
+	this.lenght=lenght;
+	this.width=width;
+}
+public Rectangle(double lenght, double width,String color, boolean filled) {
+	this.lenght=lenght;
+	this.width=width;
+	this.color=color;
+	this.filled=filled;
+}
+	@Override
+	public double getArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double getPerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

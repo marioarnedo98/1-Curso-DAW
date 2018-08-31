@@ -1,0 +1,16 @@
+package lastexam;
+
+public class test {
+
+	public static void main(String[] args) {
+		Character c1= new Character();
+		c1.setName("Mario");
+		c1.setDescription("Hey");
+		c1.setSecretWeapon(0);
+		c1.setHealth(25);
+		c1.printInfo();
+		c1.fight();
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package lastexam;
+
+public class test {
+
+	public static void main(String[] args) {
+		Character c1= new Character();
+		c1.setName("Mario");
+		c1.setDescription("Hey");
+
+	}
+
+}

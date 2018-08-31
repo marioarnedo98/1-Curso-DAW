@@ -1,0 +1,30 @@
+package bucles;
+
+public class unit3_1 {
+	public int a = 3;
+	public int b = 12;
+	public int c = 37;
+
+	public static int min(int a, int b, int c) {
+		int result = 0;
+		if (a < b && a < c && b < c)
+			result = a;
+		else if (a < b && a < c && b > c)
+			result = a;
+
+		else if (a > b && a < c && b < c)
+			result = b;
+		else if (a < b && b > c && c < a)
+			result = c;
+
+		else if (a > b && b < c && a > c)
+			result = b;
+		else if (a > b && a > c && c < b)
+			result = c;
+		return result;
+	}
+
+	public static void main(String[] args) {
+		System.out.print(int result);
+	}
+}

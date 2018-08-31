@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ejercice7.shape&apos; to &apos;Shape&apos;&#x0D;&#x0A;- Original project: &apos;wp5&apos;&#x0D;&#x0A;- Original element: &apos;ejercice7.shape&apos;&#x0D;&#x0A;- Renamed element: &apos;ejercice7.Shape&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;shape&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;ejercice7{shape.java[shape" matchStrategy="1" name="Shape" qualified="false" references="true" similarDeclarations="false" stamp="1523950259166" textual="false" version="1.0"/>
+</session>

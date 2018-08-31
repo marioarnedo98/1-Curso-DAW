@@ -1,0 +1,4 @@
+package ejercice8;
+
+public interface Parlachin {
+}
