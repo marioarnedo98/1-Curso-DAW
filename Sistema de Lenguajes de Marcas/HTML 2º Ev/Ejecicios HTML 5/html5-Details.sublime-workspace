@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sa",
+				"salvador_dali"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"gente",
+				"gentlemen"
+			],
+			[
+				"fu",
+				"fu_manchu\t(index.php)"
+			],
+			[
+				"Hand",
+				"Handlebar\t(index.php)"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"array",
+				"array\t(index.php)"
+			],
+			[
+				"my",
+				"my_name"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"padi",
+				"padding-left"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"borderbo",
+				"border-bottom-color"
+			],
+			[
+				"ifr",
+				"iframe1"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"FONT",
+				"font-family"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ce",
+				"cellspacing\tAttr"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"met",
+				"meta\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ins\t",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/daw2/Desktop/SLGM/HTML 2º Ev/Ejecicios HTML 5/html5-Details.sublime-project",
+		"/C/Users/daw2/Desktop/SLGM/html5.html",
+		"/C/xampp/htdocs/Ayuda PHP/09_GetYourHandsDirty/index.php",
+		"/C/xampp/htdocs/Ayuda PHP/09_GetYourHandsDirty/practice.php",
+		"/C/Users/daw2/Desktop/practice.php",
+		"/C/xampp/htdocs/Ayuda PHP/05_GetYourHandsDirty/index.php",
+		"/C/xampp/htdocs/Ayuda PHP/05_GetYourHandsDirty/practice.php",
+		"/C/Users/daw2/Desktop/SLGM/html/postal/Postal.html",
+		"/C/Users/daw2/Desktop/SLGM/html/postal/style.css",
+		"/C/Users/daw2/Desktop/SLGM/html/index (3).html",
+		"/C/Users/daw2/Desktop/SLGM/html/style.css",
+		"/C/Users/daw2/Desktop/SLGM/html/menu.html",
+		"/C/Users/daw2/Desktop/SLGM/html/style1.css",
+		"/C/Users/daw2/Desktop/SLGM/html/1.css",
+		"/C/xampp/htdocs/test.php",
+		"/C/xampp/htdocs/Ayuda Php/01_FirstPage/practice.php",
+		"/C/Users/daw2/Desktop/SLGM/Examen LM Mario Arnedo/Ejercicio 2/ej2.html",
+		"/C/Users/daw2/Desktop/SLGM/html/test.html",
+		"/C/Users/daw2/Desktop/SLGM/html/EjExtra/div.html",
+		"/C/Users/daw2/Desktop/SLGM/html/zindex.html",
+		"/C/Users/daw2/Desktop/SLGM/html/hola.html",
+		"/C/Users/daw2/Desktop/SLGM/html/cabezerafija.html",
+		"/E/div.html",
+		"/E/ejercicios14_11_2107.sql",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej8.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej8.html",
+		"/C/Users/daw2/Desktop/SLGM/html/plantilla html.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej6.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej6.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej10.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej10.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej9.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej9.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej7.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej7.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Escribe un programa EJERCICIOS HTML5-CSS 1 y 2/Ej2/ej2.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Escribe un programa EJERCICIOS HTML5-CSS 1 y 2/Ej2/miestilos.css",
+		"/C/Users/daw2/Desktop/SLGM/html/menu_prueba.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej4.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej4.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej5.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/Ejercicios Css/Ejercicios basicos BOX CSS/Ejercicios basicos BOX CSS/ej5.html",
+		"/C/Users/daw2/Desktop/SLGM/html/hh.css",
+		"/C/Users/daw2/Desktop/SLGM/html/menu_prueba",
+		"/C/Users/daw2/Desktop/SLGM/html/1_cssExterno.html",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/estilos.css",
+		"/C/Users/daw2/Desktop/SLGM/html/CSS/lol.go",
+		"/C/Users/daw2/Desktop/SLGM/estilos.css",
+		"/C/Users/daw2/Desktop/SLGM/1_cssExterno.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/ejercicio1_WPI.html",
+		"/C/Users/daw2/Desktop/SLGM/tablas.html",
+		"/C/Users/daw2/Desktop/SLGM/html/Ejercicio9_MarioArnedo/ejercicio9.html",
+		"/C/Users/daw2/Desktop/SLGM/html/Ejercicio9_MarioArnedo/tablas.html",
+		"/C/Users/daw2/Downloads/Mapa.html",
+		"/C/Users/daw2/Desktop/ejercicio9.html",
+		"/C/Users/daw2/Desktop/cuadrado.html",
+		"/C/Users/daw2/Desktop/circulo.html",
+		"/C/Users/daw2/Desktop/rectangulo.html",
+		"/C/Users/daw2/Desktop/triangulo.html",
+		"/C/Users/daw2/Desktop/SLGM/html/ejemplos de imagenes.html",
+		"/C/Users/daw2/Desktop/SLGM/html/div_bloques.html",
+		"/C/Users/daw2/Desktop/SLGM/html/ejercicio10.html",
+		"/C/Users/daw2/Desktop/SLGM/html/SiteMap.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/ejercicio2_WPI.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/Caracteristicas de los planetas.html",
+		"/C/Users/daw2/Downloads/index.html",
+		"/C/Users/daw2/Downloads/index (1).html",
+		"/C/Program Files/Java/jdk1.8.0_144/src/java/lang/Math.java",
+		"/C/Users/daw2/Desktop/Programatation/eclipse/Pajaro/src/pajaro.java",
+		"/C/Users/daw2/Desktop/SLGM/hTML/stickman.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/mi primera pagina.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/primerej.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/elementos en linea y bloque.html",
+		"/C/Users/daw2/Desktop/SLGM/hTML/11",
+		"/C/Users/daw2/Desktop/Programatation/HelloWorld.class"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "html5-Details.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"satic",
+				"C:\\Users\\daw2\\Desktop\\SLGM\\hTML\\Caracteristicas de los planetas.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

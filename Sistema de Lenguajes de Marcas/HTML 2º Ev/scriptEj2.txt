@@ -1,0 +1,43 @@
+function actualiza(num)
+	{
+		//Si ya hay 100 votos no actualizamos nada
+		
+		var prog = document.getElementById('prog');
+		if(prog.value >= 100)
+		{
+			alert("Votación cerrada");
+		}
+		else
+		{
+			
+		//Actualizar la barra de progreso y el número de votos recibido
+		
+		prog.value = prog.value + 1;
+		document.getElementById('porcentaje').textContent = prog.value;
+		document.getElementById('votos').textContent = prog.value;
+		
+		//Dependiendo de para quien es el voto se actualizan los resultados
+		
+		if (num == 1){
+			var met = document.getElementById('C');
+			var metS = document.getElementById('CS');
+		}
+		if (num == 2){
+			var met = document.getElementById('Java');
+			var metS = document.getElementById('JavaS');
+		}
+		if (num == 3){
+			var met = document.getElementById('Phyton');
+			var metS = document.getElementById('PhytonS');
+		}
+		met.value = met.value + 1;
+		metS.textContent = met.value;
+		}
+	}
+	
+	</script>
+	
+	// en uno de los botones de votar habrá que hacer una llamada a actualiza(1)
+	// en los demás habrá que hacer la correspondiente llamada
+	<input type="button" value="VOTAR" onclick="actualiza(1)">
+	//hay que dar los nombres adecuados a los elementos html para que sea coherente con el script

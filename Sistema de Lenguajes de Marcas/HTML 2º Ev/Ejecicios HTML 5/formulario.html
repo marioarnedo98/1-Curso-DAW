@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="formulario.css">
+<script type="text/javascript">
+	var numberc=1;
+	var numberJ=1;
+	var numberP=1;
+function c() {
+    document.getElementById("c").value = numberc;
+    document.getElementById("votosc").innerHTML= numberc;
+    numberc++;
+
+    total();
+}
+function java() {
+    document.getElementById("j").value = numberJ;
+    document.getElementById("votosj").innerHTML= numberJ;
+    numberJ++; 
+
+    total();
+}
+function phyton() {
+    document.getElementById("p").value = numberP;
+    document.getElementById("votosp").innerHTML= numberP;
+    numberP++;
+
+    total();
+}
+function total(){
+	var total=numberc+numberJ+numberP;
+	document.getElementById("total").value = total;
+	document.getElementById("totall").innerHTML =total;
+}
+</script>
+	</head>
+	<body>
+		<h1>BIENVENIDOS A ESTA VOTACION</h1>
+		<details open>
+			<summary>
+		<p>Progreso de la votacion: <meter id="total" value="0" max="100"></meter></summary>
+		<p>Numero de votos necesarios: 100</p>
+		<p>Numero de votos que llevamos: <span id="totall"></span></p>
+		</details>
+		<h2>La pregunta para hoy es la siguiente:</h2>
+		<h4>¿Que lenguaje de programacion tiene mas futuro?</h4>
+		<ul>
+			<li>Lenguaje C# <button onclick="c()" id="1">Enviar</button></li>
+			<li>Lenguaje Java <button onclick="java()" id="2">Enviar</button></li>
+			<li>Lenguaje Phyton<button onclick="phyton()" id="3">Enviar</button></li>
+		</ul>
+		<h2>Los resultados...</h2>
+		<ul>
+			<li>Lenguaje C# <progress id="c" value="0" max="100"></progress><span id="votosc"></span> Votos</li>
+			<li>Lenguaje Java<progress id="j" value="0" max="100"></progress><span id="votosj"></span> Votos</li>
+			<li>Lenguaje Pyton<progress id="p" value="0" max="100"></progress> <span id="votosp"></span> Votos</li>
+		</ul>
+	</body>
+</html>

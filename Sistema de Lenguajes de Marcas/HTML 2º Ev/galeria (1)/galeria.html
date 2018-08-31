@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+    var aux;
+    function movimiento(img){
+        if(aux!=null){
+            document.getElementById(aux).setAttribute("class","imagenx");
+        }
+        var imagen=document.getElementById(img).setAttribute("class", "imagen");
+        aux=img;
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <img src="5.png" alt="imagen1" class="imagenx"  id="imA" onclick="movimiento('imA');">
+        <img src="1.jpg" alt="imagen1" class="imagenx" id="imB" onclick="movimiento('imB');">
+        <img src="2.jpg" alt="imagen1" class="imagenx" id="imC" onclick="movimiento('imC');">
+        <img src="4.jpg" alt="imagen1" class="imagenx" id="imD" onclick="movimiento('imD');">
+        <img src="3.png" alt="imagen2"  class="imagenx" id="imF" onclick="movimiento('imF');">
+    <div id="grande"></div>
+</div>
+</body>
+</html>
