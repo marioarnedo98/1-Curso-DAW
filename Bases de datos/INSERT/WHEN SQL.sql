@@ -1,0 +1,9 @@
+use compras;
+SELECT 'PRECIO' =
+CASE 
+WHEN preunart IS NULL THEN 'NO ESTABLECIDO'
+WHEN preunart < 200 THEN 'BAJO'
+ELSE 'ALTO'
+END, descrart
+FROM ARTICULOS;
+
