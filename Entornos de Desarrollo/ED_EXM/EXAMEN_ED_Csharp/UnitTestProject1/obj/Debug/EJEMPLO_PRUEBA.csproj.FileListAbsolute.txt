@@ -1,0 +1,9 @@
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\EXAMEN_ED_Csharp.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\EXAMEN_ED_Csharp.pdb
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\obj\Debug\EJEMPLO_PRUEBA.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

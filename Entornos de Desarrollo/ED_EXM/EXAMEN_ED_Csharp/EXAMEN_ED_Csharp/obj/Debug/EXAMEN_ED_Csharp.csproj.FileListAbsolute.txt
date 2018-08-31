@@ -1,0 +1,5 @@
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\EXAMEN_ED_Csharp\bin\Debug\EXAMEN_ED_Csharp.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\EXAMEN_ED_Csharp\bin\Debug\EXAMEN_ED_Csharp.pdb
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\EXAMEN_ED_Csharp\obj\Debug\EXAMEN_ED_Csharp.csprojResolveAssemblyReference.cache
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\EXAMEN_ED_Csharp\obj\Debug\EXAMEN_ED_Csharp.dll
+C:\Users\daw2\Desktop\EXAMEN_ED_Csharp\EXAMEN_ED_Csharp\obj\Debug\EXAMEN_ED_Csharp.pdb
