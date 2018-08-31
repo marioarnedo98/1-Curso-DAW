@@ -1,0 +1,12 @@
+USE Jardineria;
+--QUITAR CLIENTE 5 
+alter table pedidos drop contraint Pedidos_cliente;
+alter table pedidos add foreign key (codigoCliente)
+references clientes(codigoCliente) on delete cascade;
+alter table DetallePedidos drop contraint DETALLEPEDIDOS_PEDIDOFK;
+ALTER TABLE DETALLEPEDIDOS ADD FOREIGN KEY (CODIGOPEDIDO)
+REFERENCES PEDIDOS(CODIGOPEDIDO) ON DELETE CASCADE;
+ALTER TABLE PAGOS DROP CONSTRAINT PAGOS_CLIENTEFK;
+ALTER TABLE PAGOS ADD FOREIGN KEY (CODIGOCLIENTE)
+REFERENCES CLIENTES(CODIGOCLIENTE) ON DELETE CASCADE;
+DELETE FROM Clientes WHERE CodigoCliente=5;
