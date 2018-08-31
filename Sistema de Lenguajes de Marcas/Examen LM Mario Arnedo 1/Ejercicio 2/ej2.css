@@ -1,0 +1,42 @@
+#menu1{
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		border:10px solid green;
+		float: left;
+		width: 150px;
+	}
+	
+		 #menu1 li {
+			height: 2.5em;
+			line-height: 2.5em;
+			
+			border-collapse: collapse;
+			border-left: 3px double white;
+			border-right: 3px double white;
+			border-top: 3px solid white;
+			border-bottom: 3px solid white;
+			background-color: orange;
+		}
+			
+			#menu1 li a {
+				display: block;
+				text-decoration: none;
+				color: white;
+				text-align: center;
+			}
+			
+				#menu1 li:hover a{
+				background-color: gray;
+				border: 0px;
+				border-collapse: collapse;
+				border-left: 3px double white;
+				border-right: 3px double white;
+				border-top: 3px solid white;
+				border-bottom: 3px solid white;
+					
+				}
+		#menu1 li:hover {
+				margin-right: -20px;
+
+		}
