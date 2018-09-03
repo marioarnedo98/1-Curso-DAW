@@ -1,0 +1,9 @@
+<xs:element name=“carta">
+<xs:complexType mixed="true">
+ <xs:sequence>
+ <xs:element name=“nombre" type="xs:string"/>
+ <xs:element name=“pedido" type="xs:positiveInteger"/>
+ <xs:element name=“fechaenvio" type="xs:date"/>
+ </xs:sequence>
+</xs:complexType>
+</xs:element>

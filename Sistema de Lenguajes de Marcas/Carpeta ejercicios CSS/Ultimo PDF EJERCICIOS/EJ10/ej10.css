@@ -1,0 +1,12 @@
+html{
+	width: 100%;
+}
+#uno,#tres{
+	background-color: red;
+}
+#dos{
+	background-color: yellow;
+	position: absolute;
+	top: 50px;
+ left: 30px;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     version="0.1" xml:lang="es">
+ <xs:element name="BDalumno">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="alumno" maxOccurs="unbounded">
+		<xs:complexType>
+		 <xs:sequence>
+			<xs:element name="codigo" type="xs:integer"/>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido1" type="xs:string"/>
+			<xs:element name="apellido2" type="xs:string"/>
+			<xs:element name="dni">
+			<xs:simpleType>
+			 <xs:restriction base="xs:string">
+				<xs:length value="9"/>
+			 </xs:restriction>
+			 </xs:simpleType>
+			 </xs:element>
+			<xs:element name="fechanacimiento" type="xs:date"/>
+			<xs:element name="curso">
+			<xs:complexType>
+			<xs:attribute name="letra">
+			<xs:simpleType>
+			 <xs:restriction base="xs:string">
+				<xs:enumeration value="A"/>
+				<xs:enumeration value="B"/>
+				<xs:enumeration value="C"/>
+				<xs:enumeration value="D"/>
+			 </xs:restriction>
+			 </xs:simpleType>
+			 </xs:attribute>
+			 </xs:complexType>
+			</xs:element>
+			 
+			<xs:element name="cuotapagada" type="xs:boolean" default="false"/>
+			<xs:element name ="edad">
+				<xs:simpleType>
+				<xs:restriction base="xs:integer">
+				 <xs:minInclusive value="16"/>
+				 <xs:maxInclusive value="24"/>
+				</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name ="direccion">
+				<xs:simpleType>
+				<xs:restriction base="xs:string">
+				 <xs:whiteSpace value="preserve"/>
+				</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		 </xs:sequence>
+		</xs:complexType>
+     </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<BDalumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="BDalumno.xsd">
+ <alumno>
+  <codigo>11</codigo>
+  <nombre>Pepe</nombre>
+  <apellido1>Pérez</apellido1>
+  <apellido2>López</apellido2>
+  <dni>15456789h</dni>
+  <fechanacimiento>2015-11-23</fechanacimiento>
+  <curso letra="A">1</curso>
+  <cuotapagada></cuotapagada>
+  <edad>16</edad>
+  <direccion>Duques de Nájera</direccion>
+  </alumno>
+</BDalumno>
+
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="images/dog.jpg" sizes="64x64" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aliens Adbucted Me</title>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset2">
+                <h2>Aliens Adbucted Me - Report an abduction</h2>
+                <p class="lead"> Share your story of alien abduction:</p>
+                <form method="post" action="report.php" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstname" class="control-label">First Name: *</label>
+                                <input type="text" name="firstname" id="firstname" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                    <label for="lastname" class="control-label">Last name: *</label>
+                                    <input type="text" name="lastname" id="lastname" class="form-control" required>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                    <label for="email" class="control-label">Email: *</label>
+                                    <input type="text" name="email" id="email" class="form-control" required><br>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="whenithappened" class="control-label">Date of the abduction: *</label>
+                            <input type="date" value="2017-01-19" name="whenithappened" id="whenithappened"class="control-label" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                    <label for="howlong" class="control-label">How long: *</label>
+                                    <input type="text" name="howlong" id="howlong" class="form-control" required>     
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                    <label for="howmany" class="control-label">How many: *</label>
+                                    <input type="number" name="howmany" id="howmany" class="form-control">      
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                        <label for="aliendescription" class="control-label">Describe then: *</label>
+                                        <input type="text" name="aliendescription" id="aliendescription" class="form-control" required>      
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                        <label for="whattheydid" class="control-label">What did they do to you: *</label>
+                                        <input type="text" name="whattheydid" id="whattheydid" class="form-control" required>      
+                                </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p><img src="images/dog.jpg" width="150" height="140" alt="My abducted dog Frank"></p>
+                        </div>
+                        <div class="col-md-9">
+                            <fieldset class="form-group">
+                                    <label for="frankspotted" class="control-label">Have you seen my dog Frank: *</label>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" id="frackspotted" name="frackspotted" type="radio" value="yes">
+                                    Yes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                        <input class="form-check-input" id="frackspotted" name="frackspotted" type="radio" value="no" checked>
+                                        No    
+                                </label>
+                            </div>
+                                </fieldset>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="other" class="control-label">Anything else you want to add?</label>
+                                <textarea name="other" id="other"  class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" name="Report abduction" name="submit" class="btn btn-suceess btn-send">
+                            <input type="button" value="Resultados" onclick="window.location.href='index.php'" class="btn btn-suceess btn-send">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-muted"><strong>*</strong>These fields are required.</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

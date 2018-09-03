@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PUZZLE</title>
+<link rel="stylesheet" href="ejer8.css" type="text/css" >
+<script type="text/javascript">
+function empezar(ev){
+	ev.dataTransfer.effectAllowed = 'move';
+	ev.dataTransfer.setData("Data", ev.target.getAttribute('id'));
+	//ev.dataTransfer.setDragImage(ev.target,0,0);
+	return true;
+}
+function entrar(ev){
+	return true;
+}
+function encima(ev){
+	var arrastraID = ev.dataTransfer.getData("Data");
+	var contenedorID = ev.target.getAttribute('id');
+	if(arrastraID.substring(1,2) == contenedorID.substring(1,2))
+	{	
+	document.getElementById(contenedorID).style.background ="#CEF608";
+		return false;
+	}
+	else
+	{	
+	document.getElementById(contenedorID).style.background = "#F78181";
+		return true;
+		
+	}
+	}
+function soltar(ev){
+	var arrastraId = ev.dataTransfer.getData("Data");
+	ev.target.appendChild(document.getElementById(arrastraId));	
+	ev.stopPropagation();
+	document.getElementById(arrastraId).style.border="0px";
+	document.getElementById(arrastraId).style.margin="0px";
+	document.getElementById(arrastraId).style.width="204px";
+	document.getElementById(arrastraId).style.height="204px";
+	return false;
+	}
+function terminar(ev){
+	ev.DataTransfer.clearData("Data");	
+	return true;
+	}
+function abortar(ev){
+		var contenedorId=ev.target.getAttribute('id');
+		document.getElementById(contenedorId).style.background="#BDBDBD";
+		return true;
+	}
+</script>
+</head>
+
+
+<body>
+
+<div id="principal">
+  <h1> PUZZLE INFANTIL </h1>
+    <div id="imagenes">
+    	<img id="i1" src="i1.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+        <img id="i2" src="i2.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+        <img id="i3" src="i3.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+        <img id="i4" src="i4.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+        <img id="i5" src="i5.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+        <img id="i6" src="i6.jpg" draggable="true" ondragstart="return empezar(event)" ondragend="return terminar(event)">
+     </div>
+     <div id="contenedores">
+   	   <div id="p1"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+       <div id="p2"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+       <div id="p3"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+       <div id="p4"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+       <div id="p5"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+       <div id="p6"  ondragenter="return entrar(event)" ondragover="return encima(event)" ondrop="return soltar(event)" ondragleave="return abortar(event)"></div>
+     </div>
+                                                
+</div>
+</body>
+</html>

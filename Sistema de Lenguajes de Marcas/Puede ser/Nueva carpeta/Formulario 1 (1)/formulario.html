@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formulario.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="respuesta.php" method="POST">
+        <h3>Formulario de registro</h3>
+        <h4>Nombre y apellidos</h4>
+<div>
+    <label for="nombre">Nombre y Apellidos*</label>
+    <input type="text" id="nombre" size="65px" required  placeholder="Inserta tu nombre y 2 apellidos">
+</div>
+<div>
+    <label for="Usuario">Nombre de usuario*</label>
+    <input type="text" id="Usuario" required placeholder="Inserta tu nombre de usuario">
+</div>
+<div>
+        <label for="Contraseña">Contraseña*</label>
+        <input type="password" id="Contraseña" required placeholder="Inserta tu contraseña">
+ </div>
+    <h4>Direccion</h4>
+<div>
+    <label for="via">Tipo de vía*</label>
+    <input type="radio" name="via" value="Calle" required>Calle
+    <input type="radio" name="via" value="Avenida" required>Avenida
+    <input type="radio" name="via" value="Paseo" required>Paseo
+</div>
+<div>
+    <label for="Nombre de la Via">Nombre de la vía*</label>
+    <input type="text" id="Nombre de la Via" required>
+</div>
+<div>
+    <label for="Numero">Numero</label>
+    <input type="number" id="Numero" min="1">
+</div>
+<div>
+    <label for="codigo postal">Codigo Postal</label>
+    <input type="number" id="codigo postal" min="00000" max="99999">
+</div>
+<div>
+    <label for="Municipio"> Municipio</label>
+    <input type="text" id="municipio">
+</div>
+<div>
+    <label for="provincia">Provincia</label>
+    <select name="provincia" id="provincia">
+        <option value="la rioja">La Rioja</option>
+        <option value="Asturias">Asturias</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Navarra">Navarra</option>
+        <option value="Cantabria">Cantabria</option>
+        <option value="Murcia">Murcia</option>
+        <option value="Andalucia">Andalucia</option>
+</select>
+</div>
+    <h4>Datos personales</h4>
+<div>
+    <label for="DNI">DNI*</label>
+    <input type="text"  class="form-control" size="10"  maxlength="9" name="nif" pattern="(([X-Z]{1})([-]?)(\d{7})([-]?)([A-Z]{1}))|((\d{8})([-]?)([A-Z]{1}))"   id="DNI" required>
+</div>
+<div>
+    <label for="FechaNacimiento">Fecha Nacimiento*</label>
+    <input type="date" name="FechaNacimiento" required>
+</div>
+<div>
+    <label for="Email">Email*</label>
+    <input type="email" id="email" required multiple>
+</div>
+<div>
+    <label for="Web">Espacio Web</label>
+    <input type="url" id="web" multiple>
+</div>
+<div>
+    <label for="Telefono">Telefono</label>
+    <input type="Tel" id="Telefono">
+</div>
+<div>
+    <label for="Fotos">Foto de perfil</label>
+    <input type="file" name="imagen"/>
+</div>
+    <h4>Intereses</h4>
+    <div>
+    <label for="preferencias">Seleccione sus preferencias</label>
+    <input type="checkbox" id="preferencias" value="Deportes">Deportes
+    <input type="checkbox" id="preferencias" value="Musica">Musica
+    <input type="checkbox" id="preferencias" value="Cine">Cine
+    <input type="checkbox" id="preferencias" value="Informatica">Informatica
+</div>
+<div>
+    <label for="color">Color preferido</label>
+    <input type="color" id="color">
+</div>
+<div id="botones">
+    <input type="image" src="post.jpg" formmethod="post" height="75px" width="75px;" formnovalidate><br>
+    <input type="submit" formmethod="get" formnovalidate>
+</div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+p{
+	font-size: 36px;
+	color:  #FF0000;
+}
+body{
+	background-color: purple;
+	width: 100%;
+	margin: 0px;
+}
+p section{
+font-size: 24px;
+}

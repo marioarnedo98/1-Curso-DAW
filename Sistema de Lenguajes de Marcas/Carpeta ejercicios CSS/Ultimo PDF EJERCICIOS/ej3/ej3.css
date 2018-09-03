@@ -1,0 +1,23 @@
+h1{
+	text-decoration:underline;
+	color: blue;
+	font-size:30px;
+	text-align: left;
+}
+h2{
+	font-size: 30px;
+	color: green;
+	text-decoration: line-through;
+	text-align: right;
+}
+h3{
+	font-size: 30px;
+	color:red;
+	text-decoration: overline;
+	text-align: center;
+}
+h4{
+	font-size: 30px
+	color:gray;
+	text-align: justify;
+}

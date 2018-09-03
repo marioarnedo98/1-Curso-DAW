@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+#principal
+{
+ 	margin: auto;
+	width: 615px;
+	background: #A9A9F5;
+	padding: 12px;
+	border-radius: 20px;
+	}
+
+#imagenes, #contenedores, #pie{
+	clear: both;
+}
+h1{
+	text-align: center;}
+
+#p1, #p2, #p3, #p4, #p5, #p6{
+	float: left;
+	width: 204px;
+	height: 204px;
+	background-color: #BDBDBD;
+	text-align: center;
+}
+#i1, #i2, #i3, #i4, #i5, #i6{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border: 2px solid black;
+	margin: 9px;
+}

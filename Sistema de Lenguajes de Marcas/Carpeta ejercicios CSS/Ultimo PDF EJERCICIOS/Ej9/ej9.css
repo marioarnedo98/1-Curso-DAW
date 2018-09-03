@@ -1,0 +1,13 @@
+#uno{
+	background-color: red;
+}
+#dos{
+	background-color: red;
+ position:relative;
+ bottom: :5px;
+ right: 15px;
+}
+   
+#tres{
+	background-color: red;
+}

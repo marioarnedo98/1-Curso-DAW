@@ -1,0 +1,15 @@
+/* Le aplico un width y un height porque la imagen es grande */
+#uno{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+#dos{
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+#tres{
+	width: 50px;
+	height: 50px;
+}

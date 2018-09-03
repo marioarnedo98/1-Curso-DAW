@@ -1,0 +1,9 @@
+img{
+	float: right;
+	vertical-align: top;
+	height: 100px;
+	width: 100px;
+}
+body{
+	background-color: green;
+}

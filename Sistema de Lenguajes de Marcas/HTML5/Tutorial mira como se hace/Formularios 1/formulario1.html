@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+</head>
+<section>
+<body>
+    <form method="get" name="mi formulario" id="mi_formulario" autocomplete="on">
+        Email: &nbsp;<input type="email" name="email" id="email" required multiple><br><br><br>
+        Buscar: &nbsp;<input type="search" name="buscar" id="buscar"><br><br><br>
+        URl: &nbsp; <input type="url" name="url" id="url" autofocus><br><br><br>
+        Edad: &nbsp;<input type="number" name="edad" id="edad" min="0" max="100" step="5" placeholder="multiplos de 5"><br><br><br>
+        Edad: &nbsp;<input type="range" name="range" id="range" min="5" max="105"><br><br><br>
+        <!-- Fecha &nbsp;<input type="date" name="fecha" id="fecha"> -->
+        <!-- Fecha &nbsp;<input type="month" name="fecha" id="fecha"> -->
+        <!-- Fecha &nbsp;<input type="week" name="fecha" id="fecha"> -->
+        Fecha &nbsp;<input type="time" name="fecha" id="fecha"><br><br><br>
+        <!-- Fecha &nbsp;<input type="datetime" name="fecha" id="fecha"> -->
+        Codigo postal: &nbsp; <input pattern="[0,9]{5}" placeholder="5 digitos"><br><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+<img src="post.jpg" width="200" height="200"><br>
+Nombre: &nbsp;<input type="text" name="Nombre" id="Nombre" form="mi formulario">
+<br>
+</body>
+</html>

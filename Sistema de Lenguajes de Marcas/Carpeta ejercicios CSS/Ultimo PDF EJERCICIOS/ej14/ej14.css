@@ -1,0 +1,16 @@
+#cabecera,#pie{
+	background-color: Aquamarine;
+	color: white;
+}
+#uno,#dos{
+	float: left;
+	width: 15%;
+	margin: 10px;
+}
+#dos{
+	border-left: 3px solid black;
+	width: 80%
+}
+#pie{
+	clear: left;
+}

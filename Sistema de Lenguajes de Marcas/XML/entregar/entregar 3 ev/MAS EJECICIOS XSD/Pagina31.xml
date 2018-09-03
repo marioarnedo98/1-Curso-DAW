@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="familia.xsd">
+<persona>
+<nombre>Hege Refsnes</nombre>
+<nombre_hijo>Cecilie</nombre_hijo>
+</persona>
+<persona>
+<nombre>ToveRefsnes</nombre>
+<nombre_hijo>Hege</nombre_hijo>
+<nombre_hijo>Stale</nombre_hijo>
+<nombre_hijo>Jim</nombre_hijo>
+<nombre_hijo>Borge</nombre_hijo>
+</persona>
+<persona>
+<nombre>Stale Refsnes</nombre>
+</persona>
+</personas>

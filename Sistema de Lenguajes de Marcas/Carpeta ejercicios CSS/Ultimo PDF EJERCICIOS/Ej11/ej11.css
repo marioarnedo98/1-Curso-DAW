@@ -1,0 +1,9 @@
+#uno{
+	position: absolute;
+	width: 200px;
+	background-color: blue;
+}
+#dos{
+	padding-left: 220px;
+	background-color: red;
+}

@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Galeria.css">
+	<script type="text/javascript">
+		var aux;
+		function movimiento(img){
+			if(aux!=null){
+				document.getElementById(aux).setAttribute("class","imagenx");
+			}
+
+			var imagen=document.getElementById(img).setAttribute("class","imagen");
+			aux=img;
+		}
+	</script>
+</head>
+<body>
+	<div id="contenedor">
+		<img src="imagenA.jpg" class="imagenx" id="imgA" alt="Imagen" height="100" width="100" onclick="movimiento('imgA');">
+		<img src="imagenB.jpg" class="imagenx" id="imgB" alt="Imagen" height="100" width="100" onclick="movimiento('imgB');">
+		<img src="imagenC.jpg" class="imagenx" id="imgC" alt="Imagen" height="100" width="100" onclick="movimiento('imgC');">
+		<img src="imagenD.jpg" class="imagenx" id="imgD" alt="Imagen" height="100" width="100" onclick="movimiento('imgD');">
+		<img src="imagenE.jpg" class="imagenx" id="imgE" alt="Imagen" height="100" width="100" onclick="movimiento('imgE');">
+		<img src="imagenF.jpg" class="imagenx" id="imgF" alt="Imagen" height="100" width="100" onclick="movimiento('imgF');">
+		<img src="imagenG.jpg" class="imagenx" id="imgG" alt="Imagen" height="100" width="100" onclick="movimiento('imgG');">
+		<div id="grande"></div>
+	</div>
+</body>
+</html>
