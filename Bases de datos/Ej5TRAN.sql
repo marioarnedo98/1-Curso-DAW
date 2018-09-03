@@ -1,0 +1,29 @@
+DECLARE @DINERO DECIMAL(18,2)
+SET @DINERO = 17;
+
+
+
+BEGIN TRY
+BEGIN TRAN
+	UPDATE CUENTA
+	SET SALDO=SALDO*1
+	WHERE Cod_Cuenta=3
+
+
+	UPDATE CUENTA 
+	SET SALDO=SALDO-@DINERO
+	WHERE Cod_Cuenta=4
+
+
+INSERT INTO Movimiento
+(Fecha,Cantidad,DNI,Cod_Cuenta,ID_Movimiento)
+SELECT
+GETDATE(),@DINERO,DNI,Cuenta.Cod_Cuenta,7
+FROM Cuenta INNER JOIN Movimiento ON Cuenta.Cod_Cuenta = movimiento.Cod_Cuenta
+WHERE cuenta.Cod_Cuenta=4 
+
+COMMIT TRANSACTION
+END TRY
+BEGIN CATCH
+ROLLBACK TRANSACTION
+END CATCH

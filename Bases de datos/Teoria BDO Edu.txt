@@ -1,0 +1,84 @@
+Sistema de información  es un conjunto de elementos orientados al tratamiento y administracion de datos e información, con organización
+y listos para su uso posterior cubriendo una necesitad u objetivo.
+
+
+Fichero es una secuencia de numeros binarios que organiza la información que se le quiera dar.
+	
+	Secuencial -> Orden en el que se grabaron, para leer el ultimo dato hay que pasar por todos los escritos anteriormente.
+ventajas rapidez en la contiguidad, datos más compactos al no dejar huecos vacios
+
+desventajas consultas lentas, algoritmos mas complejos, el borrado provoca archivos no compactos la ordenación de los datos conlleva volver
+a crearlo de nuevo
+
+
+	Acceso directo o aleatorio -> con punteros vamos a saber donde se encuentra nuestra información con lo cual tendremos un acceso rapido
+ventajas no hay que ir dato por dato leyendo todos los datos, modificacion de los mismos más sencilla, permiten acceso secuencial, permiten 
+leer y escribir a la vez
+
+desventajas no apto para usar en bdo, no se pueden borrar datos, si marcar para borrado pero dejan huecos, las consultas multiples son mas lentas
+que en la secuencial
+
+
+
+	Secuencial Encadenado -> son ficheros secuenciales gestionados con punteros
+ventajas el fichero mantiene el orden en el que se añadieron los registros y un segundo orden en base al puntero, la ordenacion no requiere modi
+ficar todo el fichero tan solo los punteros, mismas ventajas acceso secuencial
+
+desventajas añadir registros requiere recalcular punteros
+
+
+
+	Secuencial indexado -> se utilizan dos ficheros para los datos uno secuencial y otro con los punteros, esta tabla con punteros será el 
+índice, este solo apunta valores clave para saber donde esta dicha información.
+
+el archivo overflow se usara para colocar los nuevos registro que se iran añadiendo, se utiliza de tal forma que si no encuentra el registro
+en el archivo principal, recurrirá a este
+
+ventajas archivos ordeados en base a una clave, busqueda de datos rapidisima, lectura secuencial con el orden de la clave
+desventajas la reorganización es costosa como en la secuencial, hay que reescribir todo
+agregar registros requiere de más tiempo al tener que reordenar los indices
+
+
+
+	Indexado-encadenado -> utiliza punteros e indices es una variante encadenada del caso anterior hay indices y punteros y otro fichero de overflow 
+que se encargara de almacenar los nuevos registros que se añadan.
+
+ventajas mismas que secuencial indexado, mayor rapidez al reorganizar ficheros, solo se modifican los punteros
+desventajas requiere compactar los datos a menudo para reorganizar indices y quitar el fichero overflow
+
+
+
+
+BASE DE DATos conjunto de datos pertenecientes a un mismo contexto y almacenados con un orden específico para su uso posterior.
+
+
+Sistema gestor base de datos, el programa que se encarga de mantener dichas bases de datos y que permite trabajar con ellas.
+
+
+
+
+
+
+
+Ventajas de las BD
+• Flexibilidad de adaptación a cada problema.
+• Optimización en la gestión de la información.
+• Garantiza la independencia física y lógica de los datos.
+• Control de la integridad (coherencia de los datos) de los
+datos.
+• Garantía sobre la consistencia (cumplir las restricciones)
+de la información.
+• Facilidad de acceso concurrente.
+• Protección ante fallos del sistema.
+• Seguridad ante accesos restringidos. 
+
+
+
+
+
+
+
+
+
+
+

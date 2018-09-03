@@ -1,0 +1,42 @@
+BEGIN TRY 
+BEGIN TRAN
+UPDATE Empleados
+SET Nombre='Maria'
+WHERE CodigoEmpleado=0 
+UPDATE Empleados
+SET CodigoEmpleado=1
+END TRY
+BEGIN CATCH
+ROLLBACK
+END CATCH
+
+
+BEGIN TRY 
+BEGIN TRAN
+UPDATE Empleados
+SET Nombre='MArcos'
+WHERE CodigoEmpleado=0 
+UPDATE Empleados
+SET CodigoEmpleado=1
+END TRY
+BEGIN CATCH
+COMMIT
+END CATCH
+
+
+BEGIN TRY 
+BEGIN TRAN
+UPDATE Empleados
+SET Nombre='Maria'
+WHERE CodigoEmpleado=0 
+SAVE TRAN p1
+UPDATE Empleados
+SET Nombre='Maria'
+WHERE CodigoEmpleado=1 
+UPDATE Empleados
+SET CodigoEmpleado=1
+END TRY
+BEGIN CATCH
+ROLLBACK TRAN p1
+COMMIT TRANSACTION
+END CATCH
