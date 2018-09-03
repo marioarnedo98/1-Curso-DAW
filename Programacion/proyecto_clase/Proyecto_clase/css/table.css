@@ -1,0 +1,24 @@
+body{
+	margin-left: 200px;
+}
+th{
+	background: black;
+	color: white;
+}
+td {
+	background: green;
+}
+tbody{
+	display: block !important;
+	margin: 0 auto !important;
+	padding-left: 100px;
+}
+.table-bordered{
+	border: none !important;
+}
+img{
+    display: block;
+    float: left;
+    width: 230px;
+    margin-right: 10px;
+}

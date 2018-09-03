@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+}
+.noscroll {
+    overflow: hidden
+}
+body {
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Karla', sans-serif;
+    color: #555555;
+    overflow-x: hidden;
+}
+img {
+    height: auto;
+}
+.hpanel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff
+}
+.leftpan {
+    left: -4%;
+    width: 60%;
+    transform: skew(-8deg);
+    -webkit-transform: skew(-8deg);
+    -moz-transform: skew(-8deg);
+    -o-transform: skew(-8deg);
+}
+.leftpan .background-img {
+    background-image: url("../img/nuevos.jpg");
+}
+.rightpan {
+    right: -4%;
+    width: 59%;
+    border-left: 10px solid white;
+    transform: skew(8deg);
+    -webkit-transform: skew(8deg);
+    -moz-transform: skew(8deg);
+    -o-transform: skew(8deg);
+}
+.rightpan .background-img {
+    background-image: url("../img/conocenos.jpg");
+}
+.background-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.leftpan .content-area {
+    transform: skew(8deg);
+    -webkit-transform: skew(8deg);
+    -moz-transform: skew(8deg);
+    -o-transform: skew(8deg);
+
+}
+.rightpan .content-area {
+    transform: skew(-8deg);
+    -webkit-transform: skew(-8deg);
+    -moz-transform: skew(-8deg);
+    -o-transform: skew(-8deg);}
+.content-area {
+    text-align: center;
+    margin: 20vh auto;
+    width: 350px
+}
+.content-area h2 {
+    font-size: 2.8rem;
+    margin-bottom: 50px
+}
+.btn-area {
+    margin-top: 50px
+}
+.btn-area a {
+    padding: 13px 0;
+    width: 70%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+}
+.btn-area {
+    animation: example 2s ease-in-out infinite alternate;
+    -webkit-animation: example 2s ease-in-out infinite alternate;
+}
+
+@keyframes example {
+    0% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+    }
+}
+.btn-area a:hover{
+    background-color: rgba(194, 188, 188, 0.719);
+}
